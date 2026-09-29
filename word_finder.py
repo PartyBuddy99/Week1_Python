@@ -1,5 +1,6 @@
 import sys 
 import logging
+logging.basicConfig(filename="finder.log", level=logging.INFO, format="%(asctime)s - %(message)s")
 
 filename = sys.argv[1]
 word = sys.argv[2]
